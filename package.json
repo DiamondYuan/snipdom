@@ -1,7 +1,10 @@
 {
   "name": "snipdom",
   "version": "0.0.1",
-  "private": true,
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
   "description": "In-page inspector overlay for selecting DOM elements and copying their selector, HTML, and styles to the clipboard.",
   "scripts": {
     "build": "tsup",
