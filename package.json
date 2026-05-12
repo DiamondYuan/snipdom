@@ -5,6 +5,9 @@
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
+  "files": [
+    "dist"
+  ],
   "description": "In-page inspector overlay for selecting DOM elements and copying their selector, HTML, and styles to the clipboard.",
   "scripts": {
     "build": "tsup",
