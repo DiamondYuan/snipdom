@@ -1,0 +1,15 @@
+{
+  "name": "snipdom",
+  "version": "0.0.1",
+  "private": true,
+  "description": "In-page inspector overlay for selecting DOM elements and copying their selector, HTML, and styles to the clipboard.",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "typescript": "^5.6.3"
+  }
+}
